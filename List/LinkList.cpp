@@ -7,6 +7,10 @@
 typedef int status;
 typedef int ElemType;
 
+/* ********************
+ * 线性表的顺序存储结构
+ * ********************/
+
 typedef struct SqList{
     ElemType elem;
     struct SqList * next;
