@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -7,13 +8,14 @@
 
 /***************************************
  * 子串查找
- * 暴力搜索
+ * KMP搜索
  * 主串为从文本文件中读取,模式串为输入
  ***************************************/
 
 // 函数声明
 void readFromFile(char* origin);
-int StringSearch(char* origin,char* target);
+int StringSearchKMP(char* origin,char* target);
+void get_next(char* target, int* next);
 
 int main()
 {
@@ -25,7 +27,7 @@ int main()
     char target[TARGET_MAX_SIZE];
     printf("Please input the pattern string : \n");
     scanf("%s",target);
-    int index = StringSearch(origin,target);
+    int index = StringSearchKMP(origin,target);
     if(index != NO_FOUND)
     {
         printf("******************************\n");
@@ -47,28 +49,58 @@ void readFromFile(char* origin)
     fgets(origin,ORIGIN_MAX_SIZE,fp);
 }
 
-// 子串搜索,如果找到,,返回第一个字母出现的索引
-// 如果没有找到,默认返回-1
-int StringSearch(char* origin,char* target)
+int StringSearchKMP(char* origin,char* target)
 {
+    int next[TARGET_MAX_SIZE];
+    get_next(target,next);
     int i = 0;
     int j = 0;
-    int originCurIndex = 0;
-    while(origin[j]!='\0' && target[i]!= '\0')
+    while(origin[i]!='\0' && target[j]!='\0')
     {
-        if(target[i] == origin[j])
+        if(origin[i]==target[j] || (origin[i]!=target[j] && j==0))
         {
             i++;
             j++;
+        }        
+        else
+        {
+            j = (next[j] > 0 ? next[j] : 0);
+        }
+    }
+    if(origin[i]!='\0')
+        return i-j;
+    return NO_FOUND;
+}
+
+void get_next(char* target, int* next)
+{
+    int i = 0;
+    int k = -1;
+    next[0] = -1;
+    while(target[i] != '\0')
+    {
+        if(k==-1 || target[k] == target[i])
+        {
+            i++;
+            k++;
+            next[i] = k;
         }
         else
         {
-            i = 0;
-            originCurIndex++;
-            j = originCurIndex;
+            k = next[k];
         }
     }
-    if(origin[originCurIndex] == '\0')
-        return NO_FOUND;
-    return originCurIndex;
+
+
+    //Print
+    for(int m=0;target[m]!='\0';m++)
+    {
+        printf("%c\t",target[m]);
+    }
+    printf("\n");
+    for(int n=0;target[n] != '\0';n++)
+    {
+        printf("%d\t",next[n]);
+    }
+    printf("\n");
 }
