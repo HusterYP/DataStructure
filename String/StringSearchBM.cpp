@@ -55,10 +55,33 @@ int StringSearchBM(char* origin,char* target)
 {
     int bad_index[ASCII_SIZE] = {0};
     int target_length = strlen(target);
+    int origin_length = strlen(origin);
     int* good_index = (int*)malloc(sizeof(int)*target_length);
     CreateBadIndex(target,bad_index);
     CreateGoodIndex(target,good_index);
-    for()
+    int i = target_length - 1;
+    int cur = target_length - 1;
+    int j = target_length - 1;
+    while(cur < origin_length && i >= 0)
+    {
+        if(target[i] == origin[j])
+        {
+            i--;
+            j--;
+        }
+        else
+        {
+            int bad = bad_index[(int)origin[j]]; 
+            int good = good_index[i];
+            int max = bad > good ? bad : good;
+            cur += max;
+            i = target_length-1;
+            j = cur;
+        }
+    }
+    printf("%d\t%d\n",i,j);
+    if(i < 0)
+        return j+1;
     free(good_index);
     return NO_FOUND;
 }
