@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<ctime>
 
 #define status int
 #define MAX_COUNT 1000 // 默认对1000个数据进行排序操作
@@ -9,7 +10,8 @@ void CreateRandom();
 void ReadFromFile(int* num);
 void WriteToFile(int* num);
 void MergeSort(int* num);
-void MergePass(int* origin,int* target,int s);
+void Merge(int* origin, int* target, int low, int mid, int high);
+void MergePass(int* origin, int* target, int s);
 
 /*********************************************** 
  * 归并排序
@@ -34,6 +36,7 @@ void CreateRandom()
         printf("Open File Error !\n");
         return;
     }
+    srand(time(0));
     for(int i=0;i<MAX_COUNT;i++)
     { 
         fprintf(fp,"%d\t",rand() % 10000);
@@ -86,61 +89,39 @@ void MergeSort(int* num)
     }
 }
 
-void MergePass(int* origin,int* target,int s)
+void MergePass(int* origin, int* target, int s)
 {
-    int count = MAX_COUNT / s;
-    int i = 0;
-    int k = 0;
-    int m = 0;
-    if(count <= 0)
-        return;
-    if(count == 1)
+   int low = 0;
+   int high = 0;
+   int mid = 0;
+   int i = 0;
+   while(high < MAX_COUNT - 1)
+   {
+        low = i * s;
+        mid = (i + 1) * s - 1;
+        int temp = (i + 2) * s - 1;
+        high = temp > MAX_COUNT - 1 ? MAX_COUNT - 1 : temp;
+        Merge(origin, target, low, mid, high);
+        i += 2;
+   }
+}
+
+// 对给定的两个部分数据进行归并
+void Merge(int* origin, int* target, int low, int mid, int high)
+{
+    int temp = mid + 1;
+    int cur = low;
+    for(low,temp; low <= mid && temp <= high;)
     {
-        for(int n = 0;n < MAX_COUNT;n++)
-            printf("%d\t",origin[n]);
-        
-        i = 0;
-        k = MAX_COUNT-s;
-        while(1)
-        {
-            if(origin[i] < origin[k])
-                target[m++] = origin[i++];
-            else
-                target[m++] = origin[k++];
-            if(i == s || k == MAX_COUNT)
-                break;
-//            printf("i= %d\tk= %d\tm= %d\n",i,k,m);
-        }
-        if(i >= s)
-            for(k;k < MAX_COUNT;k++)
-                target[m++] = origin[k];
+        if(origin[low] < origin[temp])
+            target[cur++] = origin[low++];
         else
-            for(i;i < s;i++)
-                target[m++] = origin[i];
-  //      printf("Done !!\ni= %d\tk =%d\tm= %d\n",i,k,m);
-   //     printf("s= %d\tMAX_COUNT= %d\n",s,MAX_COUNT);
-        return;
+            target[cur++] = origin[temp++];
     }
-    for(int j = 0;j < count;j = j+2)
-    {
-        for(i = 0,k = 0;i < s && k < s;)
-        {
-            if(origin[j*s+i] < origin[(j+1)*s+k])
-            {
-                target[m++] = origin[j*s+i];
-                i++;
-            }
-            else
-            {
-                target[m++] = origin[(j+1)*s+k];
-                k++;
-            }
-        }
-        if(i >= s)
-            for(k;k < s;k++)
-                target[m++] = origin[(j+1)*s+k];
-        else
-            for(i;i < s;i++)
-                target[m++] = origin[j*s+i];
-    }
+    if(temp == high + 1)
+        for(low; low <= mid; low++)
+            target[cur++] = origin[low];
+    else if(low == mid + 1)
+        for(temp; temp <= high; temp++)
+            target[cur++] = origin[temp];
 }
