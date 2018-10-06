@@ -11,176 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="1160" column="4" lean-forward="false" selection-start-line="1160" selection-start-column="4" selection-end-line="1160" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;class#String#0" expanded="false" />
-                <element signature="docComment;field#value#0;class#String#0" expanded="false" />
-                <element signature="docComment;field#hash#0;class#String#0" expanded="false" />
-                <element signature="docComment;field#serialVersionUID#0;class#String#0" expanded="false" />
-                <element signature="docComment;field#serialPersistentFields#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#1;class#String#0" expanded="false" />
-                <element signature="method#String#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#2;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#3;class#String#0" expanded="false" />
-                <element signature="method#String#3;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#4;class#String#0" expanded="false" />
-                <element signature="method#String#4;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#5;class#String#0" expanded="false" />
-                <element signature="method#String#5;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#6;class#String#0" expanded="false" />
-                <element signature="method#checkBounds#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#7;class#String#0" expanded="false" />
-                <element signature="method#String#7;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#8;class#String#0" expanded="false" />
-                <element signature="method#String#8;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#9;class#String#0" expanded="false" />
-                <element signature="method#String#9;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#10;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#11;class#String#0" expanded="false" />
-                <element signature="method#String#11;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#12;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#13;class#String#0" expanded="false" />
-                <element signature="method#String#13;class#String#0" expanded="false" />
-                <element signature="docComment;method#String#14;class#String#0" expanded="false" />
-                <element signature="method#String#15;class#String#0" expanded="false" />
-                <element signature="docComment;method#length#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#isEmpty#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#charAt#0;class#String#0" expanded="false" />
-                <element signature="method#charAt#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#codePointAt#0;class#String#0" expanded="false" />
-                <element signature="method#codePointAt#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#codePointBefore#0;class#String#0" expanded="false" />
-                <element signature="method#codePointBefore#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#codePointCount#0;class#String#0" expanded="false" />
-                <element signature="method#codePointCount#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#offsetByCodePoints#0;class#String#0" expanded="false" />
-                <element signature="method#offsetByCodePoints#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#getChars#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#getChars#1;class#String#0" expanded="false" />
-                <element signature="method#getChars#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#getBytes#0;class#String#0" expanded="false" />
-                <element signature="method#getBytes#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#getBytes#1;class#String#0" expanded="false" />
-                <element signature="method#getBytes#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#getBytes#2;class#String#0" expanded="false" />
-                <element signature="method#getBytes#2;class#String#0" expanded="false" />
-                <element signature="docComment;method#getBytes#3;class#String#0" expanded="false" />
-                <element signature="method#equals#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#contentEquals#0;class#String#0" expanded="false" />
-                <element signature="method#nonSyncContentEquals#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#contentEquals#1;class#String#0" expanded="false" />
-                <element signature="method#contentEquals#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#equalsIgnoreCase#0;class#String#0" expanded="false" />
-                <element signature="method#equalsIgnoreCase#0;class#String#0" expanded="false" />
-                <element signature="docComment;field#CASE_INSENSITIVE_ORDER#0;class#String#0" expanded="false" />
-                <element signature="class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-                <element signature="method#compare#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-                <element signature="method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#compareToIgnoreCase#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#regionMatches#0;class#String#0" expanded="false" />
-                <element signature="method#regionMatches#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#regionMatches#1;class#String#0" expanded="false" />
-                <element signature="method#regionMatches#1;class#String#0" expanded="false" />
-                <element signature="e#52980#53033#0" expanded="false" />
-                <element signature="e#53402#53466#0" expanded="false" />
-                <element signature="docComment;method#startsWith#0;class#String#0" expanded="false" />
-                <element signature="method#startsWith#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#startsWith#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#endsWith#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#hashCode#0;class#String#0" expanded="false" />
-                <element signature="method#hashCode#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#indexOf#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#indexOf#1;class#String#0" expanded="false" />
-                <element signature="method#indexOf#1;class#String#0" expanded="false" />
-                <element signature="e#60775#60829#0" expanded="false" />
-                <element signature="docComment;method#indexOfSupplementary#0;class#String#0" expanded="false" />
-                <element signature="method#indexOfSupplementary#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#lastIndexOf#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#lastIndexOf#1;class#String#0" expanded="false" />
-                <element signature="method#lastIndexOf#1;class#String#0" expanded="false" />
-                <element signature="e#64802#64856#0" expanded="false" />
-                <element signature="docComment;method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
-                <element signature="method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#indexOf#2;class#String#0" expanded="false" />
-                <element signature="docComment;method#indexOf#3;class#String#0" expanded="false" />
-                <element signature="method#indexOf#3;class#String#0" expanded="false" />
-                <element signature="docComment;method#indexOf#4;class#String#0" expanded="false" />
-                <element signature="method#indexOf#4;class#String#0" expanded="false" />
-                <element signature="docComment;method#indexOf#5;class#String#0" expanded="false" />
-                <element signature="method#indexOf#5;class#String#0" expanded="false" />
-                <element signature="docComment;method#lastIndexOf#2;class#String#0" expanded="false" />
-                <element signature="docComment;method#lastIndexOf#3;class#String#0" expanded="false" />
-                <element signature="method#lastIndexOf#3;class#String#0" expanded="false" />
-                <element signature="docComment;method#lastIndexOf#4;class#String#0" expanded="false" />
-                <element signature="method#lastIndexOf#4;class#String#0" expanded="false" />
-                <element signature="docComment;method#lastIndexOf#5;class#String#0" expanded="false" />
-                <element signature="method#lastIndexOf#5;class#String#0" expanded="false" />
-                <element signature="docComment;method#substring#0;class#String#0" expanded="false" />
-                <element signature="method#substring#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#substring#1;class#String#0" expanded="false" />
-                <element signature="method#substring#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#subSequence#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#concat#0;class#String#0" expanded="false" />
-                <element signature="method#concat#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#replace#0;class#String#0" expanded="false" />
-                <element signature="method#replace#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#matches#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#contains#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#replaceFirst#0;class#String#0" expanded="false" />
-                <element signature="method#replaceFirst#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#replaceAll#0;class#String#0" expanded="false" />
-                <element signature="method#replaceAll#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#replace#1;class#String#0" expanded="false" />
-                <element signature="method#replace#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#split#0;class#String#0" expanded="false" />
-                <element signature="method#split#0;class#String#0" expanded="false" />
-                <element signature="e#92274#92285#0" expanded="false" />
-                <element signature="docComment;method#split#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#join#0;class#String#0" expanded="false" />
-                <element signature="method#join#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#join#1;class#String#0" expanded="false" />
-                <element signature="method#join#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#toLowerCase#0;class#String#0" expanded="false" />
-                <element signature="method#toLowerCase#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#toLowerCase#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#toUpperCase#0;class#String#0" expanded="false" />
-                <element signature="method#toUpperCase#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#toUpperCase#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#trim#0;class#String#0" expanded="false" />
-                <element signature="method#trim#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#toString#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#toCharArray#0;class#String#0" expanded="false" />
-                <element signature="method#toCharArray#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#format#0;class#String#0" expanded="false" />
-                <element signature="method#format#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#format#1;class#String#0" expanded="false" />
-                <element signature="method#format#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#2;class#String#0" expanded="false" />
-                <element signature="docComment;method#copyValueOf#0;class#String#0" expanded="false" />
-                <element signature="docComment;method#copyValueOf#1;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#3;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#4;class#String#0" expanded="false" />
-                <element signature="method#valueOf#4;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#5;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#6;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#7;class#String#0" expanded="false" />
-                <element signature="docComment;method#valueOf#8;class#String#0" expanded="false" />
-                <element signature="docComment;method#intern#0;class#String#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -206,6 +37,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1044" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -221,9 +56,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,6 +68,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,41 +188,42 @@
       <option name="presentableId" value="Default" />
       <updated>1532767137687</updated>
       <workItem from="1532767140377" duration="1592000" />
+      <workItem from="1535179346921" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1592000" />
+    <option name="totallyTimeSpent" value="1650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,19 +237,177 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Dmeo.java">
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#String#0" expanded="false" />
+            <element signature="docComment;field#value#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#hash#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#serialVersionUID#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#serialPersistentFields#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#1;class#String#0" expanded="false" />
+            <element signature="method#String#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#3;class#String#0" expanded="false" />
+            <element signature="method#String#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#4;class#String#0" expanded="false" />
+            <element signature="method#String#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#5;class#String#0" expanded="false" />
+            <element signature="method#String#5;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#6;class#String#0" expanded="false" />
+            <element signature="method#checkBounds#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#7;class#String#0" expanded="false" />
+            <element signature="method#String#7;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#8;class#String#0" expanded="false" />
+            <element signature="method#String#8;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#9;class#String#0" expanded="false" />
+            <element signature="method#String#9;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#10;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#11;class#String#0" expanded="false" />
+            <element signature="method#String#11;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#12;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#13;class#String#0" expanded="false" />
+            <element signature="method#String#13;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#14;class#String#0" expanded="false" />
+            <element signature="method#String#15;class#String#0" expanded="false" />
+            <element signature="docComment;method#length#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#charAt#0;class#String#0" expanded="false" />
+            <element signature="method#charAt#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#codePointAt#0;class#String#0" expanded="false" />
+            <element signature="method#codePointAt#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#codePointBefore#0;class#String#0" expanded="false" />
+            <element signature="method#codePointBefore#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#codePointCount#0;class#String#0" expanded="false" />
+            <element signature="method#codePointCount#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#offsetByCodePoints#0;class#String#0" expanded="false" />
+            <element signature="method#offsetByCodePoints#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#getChars#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#getChars#1;class#String#0" expanded="false" />
+            <element signature="method#getChars#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#0;class#String#0" expanded="false" />
+            <element signature="method#getBytes#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#1;class#String#0" expanded="false" />
+            <element signature="method#getBytes#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#2;class#String#0" expanded="false" />
+            <element signature="method#getBytes#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#3;class#String#0" expanded="false" />
+            <element signature="method#equals#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#contentEquals#0;class#String#0" expanded="false" />
+            <element signature="method#nonSyncContentEquals#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#contentEquals#1;class#String#0" expanded="false" />
+            <element signature="method#contentEquals#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#equalsIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="method#equalsIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#CASE_INSENSITIVE_ORDER#0;class#String#0" expanded="false" />
+            <element signature="class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="method#compare#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#compareToIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#regionMatches#0;class#String#0" expanded="false" />
+            <element signature="method#regionMatches#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#regionMatches#1;class#String#0" expanded="false" />
+            <element signature="method#regionMatches#1;class#String#0" expanded="false" />
+            <element signature="e#52980#53033#0" expanded="false" />
+            <element signature="e#53402#53466#0" expanded="false" />
+            <element signature="docComment;method#startsWith#0;class#String#0" expanded="false" />
+            <element signature="method#startsWith#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#startsWith#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#endsWith#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#String#0" expanded="false" />
+            <element signature="method#hashCode#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#1;class#String#0" expanded="false" />
+            <element signature="method#indexOf#1;class#String#0" expanded="false" />
+            <element signature="e#60775#60829#0" expanded="false" />
+            <element signature="docComment;method#indexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="method#indexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#1;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#1;class#String#0" expanded="false" />
+            <element signature="e#64802#64856#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#3;class#String#0" expanded="false" />
+            <element signature="method#indexOf#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#4;class#String#0" expanded="false" />
+            <element signature="method#indexOf#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#5;class#String#0" expanded="false" />
+            <element signature="method#indexOf#5;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#3;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#4;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#5;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#5;class#String#0" expanded="false" />
+            <element signature="docComment;method#substring#0;class#String#0" expanded="false" />
+            <element signature="method#substring#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#substring#1;class#String#0" expanded="false" />
+            <element signature="method#substring#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#subSequence#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#concat#0;class#String#0" expanded="false" />
+            <element signature="method#concat#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replace#0;class#String#0" expanded="false" />
+            <element signature="method#replace#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#matches#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replaceFirst#0;class#String#0" expanded="false" />
+            <element signature="method#replaceFirst#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replaceAll#0;class#String#0" expanded="false" />
+            <element signature="method#replaceAll#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replace#1;class#String#0" expanded="false" />
+            <element signature="method#replace#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#split#0;class#String#0" expanded="false" />
+            <element signature="method#split#0;class#String#0" expanded="false" />
+            <element signature="e#92274#92285#0" expanded="false" />
+            <element signature="docComment;method#split#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#join#0;class#String#0" expanded="false" />
+            <element signature="method#join#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#join#1;class#String#0" expanded="false" />
+            <element signature="method#join#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#toLowerCase#0;class#String#0" expanded="false" />
+            <element signature="method#toLowerCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toLowerCase#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#toUpperCase#0;class#String#0" expanded="false" />
+            <element signature="method#toUpperCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toUpperCase#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#trim#0;class#String#0" expanded="false" />
+            <element signature="method#trim#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toCharArray#0;class#String#0" expanded="false" />
+            <element signature="method#toCharArray#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#format#0;class#String#0" expanded="false" />
+            <element signature="method#format#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#format#1;class#String#0" expanded="false" />
+            <element signature="method#format#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#copyValueOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#copyValueOf#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#4;class#String#0" expanded="false" />
+            <element signature="method#valueOf#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#5;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#6;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#7;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#8;class#String#0" expanded="false" />
+            <element signature="docComment;method#intern#0;class#String#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dmeo.java" />
     <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/com/sun/org/apache/xpath/internal/objects/XNodeSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="766" column="4" lean-forward="true" selection-start-line="766" selection-start-column="4" selection-end-line="766" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -421,7 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1815">
           <caret line="467" column="24" lean-forward="true" selection-start-line="467" selection-start-column="24" selection-end-line="467" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3096">
           <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,24 +429,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="220" column="13" lean-forward="true" selection-start-line="220" selection-start-column="13" selection-end-line="220" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#SortedSet#0" expanded="false" />
-            <element signature="docComment;method#comparator#0;class#SortedSet#0" expanded="false" />
-            <element signature="docComment;method#subSet#0;class#SortedSet#0" expanded="false" />
-            <element signature="docComment;method#headSet#0;class#SortedSet#0" expanded="false" />
-            <element signature="docComment;method#tailSet#0;class#SortedSet#0" expanded="false" />
-            <element signature="docComment;method#first#0;class#SortedSet#0" expanded="false" />
-            <element signature="docComment;method#last#0;class#SortedSet#0" expanded="false" />
-            <element signature="docComment;method#spliterator#0;class#SortedSet#0" expanded="false" />
-            <element signature="method#spliterator#0;class#SortedSet#0" expanded="false" />
-            <element signature="class#11577:11859" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="648">
           <caret line="1160" column="4" lean-forward="false" selection-start-line="1160" selection-start-column="4" selection-end-line="1160" selection-end-column="4" />
           <folding>
             <element signature="docComment;class#String#0" expanded="false" />
