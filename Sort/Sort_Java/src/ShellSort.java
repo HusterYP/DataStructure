@@ -1,14 +1,17 @@
-public class InsertSort {
+public class ShellSort {
     public static void sort(int[] noSort) {
         if (noSort == null || noSort.length <= 0)
             return;
         int N = noSort.length;
-        for (int i = 1; i < N; i++) {
-            int index = i;
-            while (index > 0 && Utils.less(noSort[index], noSort[index - 1])) {
-                Utils.exch(noSort, index, index - 1);
-                index--;
+        int h = 1;
+        while (h < N / 3)
+            h = h * 3 + 1;
+        while (h >= 1) {
+            for (int i = h; i < N; i++) {
+                for (int j = i; j >= h && Utils.less(noSort[j], noSort[j - h]); j -= h)
+                    Utils.exch(noSort, j, j - h);
             }
+            h = h / 3;
         }
     }
 

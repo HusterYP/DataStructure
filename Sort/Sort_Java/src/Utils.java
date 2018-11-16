@@ -101,8 +101,8 @@ public class Utils {
         data[j] = temp;
     }
 
-    public static int less(int i, int j) {
-        return j - i;
+    public static boolean less(int i, int j) {
+        return i < j;
     }
 
     // test

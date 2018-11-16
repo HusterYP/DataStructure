@@ -6,7 +6,7 @@ public class SelectSort {
         for (int i = 0; i < N; i++) {
             int min = i;
             for (int j = i + 1; j < N; j++) {
-                if (Utils.less(noSort[min], noSort[j]) < 0)
+                if (!Utils.less(noSort[min], noSort[j]))
                     min = j;
             }
             Utils.exch(noSort, i, min);

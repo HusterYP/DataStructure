@@ -1,13 +1,16 @@
-public class InsertSort {
+public class BubbleSort {
     public static void sort(int[] noSort) {
         if (noSort == null || noSort.length <= 0)
             return;
         int N = noSort.length;
-        for (int i = 1; i < N; i++) {
-            int index = i;
-            while (index > 0 && Utils.less(noSort[index], noSort[index - 1])) {
-                Utils.exch(noSort, index, index - 1);
-                index--;
+        boolean isChange = true;
+        for (int i = N; i > 0 && isChange; i--) {
+            isChange = false;
+            for (int j = 0; j < i - 1; j++) {
+                if (Utils.less(noSort[j + 1], noSort[j])) {
+                    Utils.exch(noSort, j, j + 1);
+                    isChange = true;
+                }
             }
         }
     }
